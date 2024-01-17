@@ -3,7 +3,13 @@
 
 #include <stdlib.h>
 
-
+/**
+ * listint_s - struct list
+ * n: list integer
+ * listint_s: the struct
+ *
+ * Return: nothing
+ */
 typedef struct listint_s
 {
 	int n;
