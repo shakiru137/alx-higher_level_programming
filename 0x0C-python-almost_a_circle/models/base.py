@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-""" Base Module """
+""" This is the base module """
 
 
 class Base:
-    """ Base class """
+    """ Private class attribute """
     __nb_objects = 0
-
+    """ The class constructor """
     def __init__(self, id=None):
-        """ Initializes Base instance """
         if id is not None:
+            """ Public instance attribute """
             self.id = id
         else:
             type(self).__nb_objects += 1
